@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Q-AI | St Antony's College</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="background">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="grid"></div>
+</div>
+
+<main class="app">
+
+    <header class="header">
+
+        <div class="brand">
+
+            <div class="logo">⚛</div>
+
+            <div>
+                <h1>Q-AI</h1>
+                <p>Quantum College Intelligence</p>
+            </div>
+
+        </div>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            LOCAL • ONLINE
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="eyebrow">
+            ⚛ QUANTUM-ASSISTED KNOWLEDGE SYSTEM
+        </div>
+
+        <h2>
+            Ask your college.<br>
+            <span>Get verified answers.</span>
+        </h2>
+
+        <p class="hero-text">
+            Explore verified information about St Antony's College
+            Peruvanthanam through a local intelligent knowledge system.
+        </p>
+
+    </section>
+
+
+    <!-- QUESTION -->
+
+    <section class="search-card">
+
+        <div class="search-label">
+
+            <span>YOUR QUESTION</span>
+
+            <span class="shortcut">
+                ENTER ↵
+            </span>
+
+        </div>
+
+        <textarea
+            id="question"
+            placeholder="e.g. Who is the HOD of Computer Science?"
+            rows="2"
+        ></textarea>
+
+        <button id="askButton">
+
+            <span>Ask Q-AI</span>
+
+            <span class="arrow">
+                →
+            </span>
+
+        </button>
+
+    </section>
+
+
+    <!-- ANSWER -->
+
+    <section
+        id="answerSection"
+        class="answer-section hidden"
+    >
+
+        <div class="section-label">
+
+            <span>
+                🤖 VERIFIED ANSWER
+            </span>
+
+            <span id="verification">
+                VERIFIED DATABASE
+            </span>
+
+        </div>
+
+        <div
+            id="answerCard"
+            class="answer-card"
+        >
+            <!-- Answer appears here -->
+        </div>
+
+    </section>
+
+
+    <!-- QUANTUM DEMONSTRATION -->
+
+    <section
+        id="quantumSection"
+        class="quantum-section hidden"
+    >
+
+        <div class="section-label">
+
+            <span>
+                ⚛ QUANTUM SEARCH
+            </span>
+
+            <span>
+                EXPERIMENTAL
+            </span>
+
+        </div>
+
+
+        <div class="quantum-card">
+
+
+            <!-- Quantum Animation -->
+
+            <div class="quantum-animation">
+
+                <div class="quantum-ring ring-1"></div>
+
+                <div class="quantum-ring ring-2"></div>
+
+                <div class="quantum-core">
+                    ⚛
+                </div>
+
+            </div>
+
+
+            <!-- Quantum Statistics -->
+
+            <div class="quantum-stats">
+
+
+                <div class="stat">
+
+                    <span>
+                        SEARCH SPACE
+                    </span>
+
+                    <strong id="searchSpace">
+                        —
+                    </strong>
+
+                    <small>
+                        states
+                    </small>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span>
+                        QUBITS
+                    </span>
+
+                    <strong id="qubits">
+                        —
+                    </strong>
+
+                    <small>
+                        qubits
+                    </small>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span>
+                        GROVER
+                    </span>
+
+                    <strong id="iterations">
+                        —
+                    </strong>
+
+                    <small>
+                        iterations
+                    </small>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span>
+                        SUCCESS
+                    </span>
+
+                    <strong id="successProbability">
+                        —
+                    </strong>
+
+                    <small>
+                        measurement probability
+                    </small>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span
+                        id="quantumStatus"
+                        class="success"
+                    >
+                        —
+                    </span>
+
+                    <small>
+                        target status
+                    </small>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- Quantum Search Evidence -->
+
+            <div class="quantum-details">
+
+                <p id="quantumBackend">
+                    Backend: —
+                </p>
+
+                <p id="quantumMode">
+                    Mode: —
+                </p>
+
+                <p id="quantumShots">
+                    Shots: —
+                </p>
+
+                <p id="measuredIndex">
+                    Measured index: —
+                </p>
+
+            </div>
+
+
+            <!-- Query Complexity -->
+
+            <div class="quantum-details">
+
+                <p id="classicalWorstCase">
+                    Classical worst case: —
+                </p>
+
+                <p id="groverQueryCount">
+                    Grover query count: —
+                </p>
+
+                <p id="queryReduction">
+                    Query reduction: —
+                </p>
+
+            </div>
+
+
+            <!-- Scientific Explanation -->
+
+            <div class="quantum-explanation">
+
+                <div class="section-label">
+
+                    <span>
+                        🧠 WHY QUANTUM?
+                    </span>
+
+                    <span>
+                        METHOD
+                    </span>
+
+                </div>
+
+                <p>
+                    Grover's algorithm provides quadratic
+                    query-complexity scaling for unstructured search,
+                    reducing the ideal query growth from O(N) toward
+                    O(√N).
+                </p>
+
+                <p>
+                    Q-AI currently runs this circuit using Qiskit Aer
+                    on a classical CPU simulator. Therefore, the
+                    displayed query reduction represents algorithmic
+                    query complexity, not measured hardware runtime
+                    speedup.
+                </p>
+
+            </div>
+
+
+            <!-- Quantum Status -->
+
+            <div class="quantum-status-message">
+
+                <span>
+                    ⚛
+                </span>
+
+                <span id="quantumMessage">
+                    Quantum search completed.
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <span>Q-AI</span>
+
+        <span>•</span>
+
+        <span>Local Knowledge Base</span>
+
+        <span>•</span>
+
+        <span>Qiskit Aer</span>
+
+    </footer>
+
+</main>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>

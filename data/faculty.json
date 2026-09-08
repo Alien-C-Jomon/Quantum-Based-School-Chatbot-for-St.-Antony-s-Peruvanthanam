@@ -1,0 +1,224 @@
+{
+  "faculty": [
+    {
+      "name": "Dr. Antony Joseph",
+      "role": "Principal",
+      "department": "Administration"
+    },
+    {
+     "name": "Mr. Boby K Mathew",
+     "role": "Vice Principal & Assistant Professor",
+     "department": "Malayalam"
+    },
+    {
+      "name": "Mrs. Suparna Raju",
+      "role": "Vice Principal, HOD & Assistant Professor",
+      "department": "Mathematics"
+    },
+    {
+      "name": "Mr. Ratheesh P R",
+      "role": "Vice Principal, HOD & Assistant Professor",
+      "department": "Logistics Management"
+    },
+    {
+      "name": "Mr. Tijomon Jacob",
+      "role": "College Secretary, HOD & Assistant Professor",
+      "department": "PG Department of Commerce"
+    },
+    {
+      "name": "Mrs. Anjaly R Nair",
+      "role": "HOD & Assistant Professor",
+      "department": "English & Psychology"
+    },
+    {
+      "name": "Mrs. Jintumol John",
+      "role": "HOD & Assistant Professor",
+      "department": "Computer Science"
+    },
+    {
+      "name": "Mrs. Christy Jose",
+      "role": "HOD & Assistant Professor",
+      "department": "Fashion Technology"
+    },
+    {
+      "name": "Mr. Nice Jose",
+      "role": "IQAC Coordinator",
+      "department": "Administration"
+    },
+    {
+      "name": "Mr. Saji Zacharia",
+      "role": "Course Director & Assistant Professor",
+      "department": "Hotel Management"
+    },
+    {
+      "name": "Mr. Tomy Joseph",
+      "role": "HOD & Assistant Professor",
+      "department": "Hotel Management"
+    },
+    {
+      "name": "Mrs. Jinu Thomas",
+      "role": "HOD & Assistant Professor",
+      "department": "B.Com Finance and Taxation"
+    },
+    {
+      "name": "Ms. Jismi Shaju",
+      "role": "HOD & Assistant Professor",
+      "department": "MSW"
+    },
+    {
+      "name": "Mr. Anurag P",
+      "role": "HOD & Assistant Professor",
+      "department": "Malayalam"
+    },
+    {
+      "name": "Dr. Shijimol Thomas",
+      "role": "Faculty",
+      "department": "Commerce"
+    },
+    {
+      "name": "Mrs. Beena P R",
+      "role": "Faculty",
+      "department": "Commerce"
+    },
+    {
+      "name": "Mr. Kishor Baby",
+      "role": "Faculty",
+      "department": "Commerce"
+    },
+    {
+      "name": "Ms. Sini Mol Mathew",
+      "role": "Faculty",
+      "department": "Commerce"
+    },
+    {
+      "name": "Mrs. Jomiya Mary Sebastian",
+      "role": "Faculty",
+      "department": "Commerce"
+    },
+    {
+      "name": "Ms. Devu Reghunathan",
+      "role": "Faculty",
+      "department": "Commerce"
+    },
+    {
+      "name": "Mrs. Athira Lalu",
+      "role": "Faculty",
+      "department": "Commerce"
+    },
+    {
+      "name": "Mrs. Praicy Antony",
+      "role": "Faculty",
+      "department": "Computer Science"
+    },
+    {
+      "name": "Mrs. Rintamol Mathew",
+      "role": "Faculty",
+      "department": "Computer Science"
+    },
+    {
+      "name": "Mrs. Monisha M Mohanan",
+      "role": "Faculty",
+      "department": "Computer Science"
+    },
+    {
+      "name": "Mrs. Nancy Dcruz",
+      "role": "Faculty",
+      "department": "Computer Science"
+    },
+    {
+      "name": "Mr. Eldhose Baby",
+      "role": "Faculty",
+      "department": "Computer Science"
+    },
+    {
+      "name": "Ms. Sreelekshmi Babu",
+      "role": "Faculty",
+      "department": "Computer Science"
+    },
+    {
+      "name": "Mrs. Arshna Rajeev",
+      "role": "Faculty",
+      "department": "Computer Science"
+    },
+    {
+      "name": "Mr. Anto Joseph",
+      "role": "Faculty",
+      "department": "Computer Science"
+    },
+    {
+      "name": "Mrs. Shantimol S",
+      "role": "Faculty",
+      "department": "English"
+    },
+    {
+      "name": "Mrs. Bindu P.R",
+      "role": "Faculty",
+      "department": "English"
+    },
+    {
+      "name": "Mrs. Suby Sebastian",
+      "role": "Faculty",
+      "department": "Management"
+    },
+    {
+      "name": "Mrs. Ann Mary Mathew",
+      "role": "Faculty",
+      "department": "Management"
+    },
+    {
+      "name": "Mrs. Ashwini Jaisy",
+      "role": "Faculty",
+      "department": "Management"
+    },
+    {
+      "name": "Ms. Athira Vijayan",
+      "role": "Lab Instructor",
+      "department": "Fashion Technology"
+    },
+    {
+      "name": "Mrs. Bobyna Rossamma Manu",
+      "role": "Faculty",
+      "department": "Fashion Technology"
+    },
+    {
+      "name": "Mrs. Manju S Nair",
+      "role": "Faculty",
+      "department": "Mathematics"
+    },
+    {
+      "name": "Mrs. Ashin Jose",
+      "role": "Faculty",
+      "department": "Mathematics"
+    },
+    {
+      "name": "Ms. Mariya Joseph",
+      "role": "Faculty",
+      "department": "Mathematics"
+    },
+    {
+      "name": "Ms. Gayathri R S",
+      "role": "Faculty",
+      "department": "Psychology"
+    },
+    {
+      "name": "Ms. Godmy Devasia",
+      "role": "Faculty",
+      "department": "Psychology"
+    },
+    {
+      "name": "Fr. Joseph Myladiyil",
+      "role": "Visiting Faculty",
+      "department": "Social Work"
+    },
+    {
+      "name": "Mr. Hemanth Vijayan",
+      "role": "Faculty",
+      "department": "Hotel Management"
+    },
+    {
+      "name": "Mr. Satheesh Silvest",
+      "role": "Faculty",
+      "department": "Hotel Management"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+എന്റെ project-ന്റെ പേര് **Q-AI — Quantum-Assisted College Intelligence** എന്നാണ്.
+
+St Antony's College Peruvanthanam-ന്റെ verified information ഒരു local knowledge base-ൽ ശേഖരിച്ച്, students-ന് conversational രീതിയിൽ information ലഭ്യമാക്കുകയാണ് ഇതിന്റെ പ്രധാന ലക്ഷ്യം.
+
+ഉദാഹരണത്തിന്, “What courses does the college offer?”, “Who is the HOD of Computer Science?” തുടങ്ങിയ questions നേരിട്ട് ചോദിക്കാം.
+
+ഈ system-ന്റെ ഒരു പ്രധാന principle ആണ്:
+
+**“No verified data, no answer.”**
+
+Knowledge base-ൽ verified information ഇല്ലെങ്കിൽ Q-AI guess ചെയ്യുകയോ information ഉണ്ടാക്കുകയോ ചെയ്യില്ല.
+
+ഇതിന്റെ മറ്റൊരു പ്രധാന ഭാഗമാണ് quantum computing.
+
+Faculty search പോലുള്ള suitable queries-ൽ ഞാൻ **Grover's quantum search algorithm** Qiskit Aer simulator ഉപയോഗിച്ച് demonstrate ചെയ്യുന്നു.
+
+നിലവിലെ faculty database-ൽ 44 records ഉണ്ട്. Six qubits ഉപയോഗിക്കുമ്പോൾ 2⁶ = 64 states represent ചെയ്യാൻ കഴിയും. അതിനാൽ 44 records-നെ 64-state search space ആയി pad ചെയ്യുന്നു.
+
+Classical unstructured search-ന്റെ query complexity O(N) ആണ്. Grover's algorithm അത് theoretical ആയി O(√N) ആക്കുന്നു.
+
+നമ്മുടെ 44-record example-ൽ 44 എന്ന classical worst-case query count-നും 6 Grover iterations-നും തമ്മിൽ compare ചെയ്യുമ്പോൾ ഏകദേശം 7.3× query-count reduction ലഭിക്കുന്നു.
+
+പക്ഷേ ഇത് 7.3× runtime speedup ആണെന്ന് ഞാൻ claim ചെയ്യുന്നില്ല. Qiskit Aer ഒരു CPU-based simulator ആണ്; physical quantum computer അല്ല.
+
+അതുകൊണ്ട് Q-AI ഒരു chatbot മാത്രം അല്ല. **Verified college information retrieval, domain-specific AI, quantum computing demonstration** എന്നീ മൂന്ന് concepts ഒരുമിച്ച് ഉപയോഗിക്കുന്ന ഒരു working prototype ആണ്.
+
+
+എന്റെ project-ന്റെ പ്രധാന ലക്ഷ്യം ഒരു chatbot ഉണ്ടാക്കുക എന്നത് മാത്രമല്ല. College information പല സ്ഥലങ്ങളിലായി scattered ആയിരിക്കുന്ന ഒരു real-world problem കുറയ്ക്കുക എന്നതാണ്.”
+
+“ഒരു student-ന് ഒരു course എന്താണ് available, ആരാണ് HOD, college-ന്റെ affiliation എന്താണ്, achievements എന്തൊക്കെയാണ് എന്നൊക്കെ അറിയാൻ പല webpages-ലും search ചെയ്യേണ്ടി വരാം.”
+ 
+“Q-AI ഈ information ഒരു verified knowledge base-ലേക്ക് കൊണ്ടുവന്ന്, student-ന് നേരിട്ട് ചോദിച്ച് answer ലഭിക്കുന്ന രീതിയിലാക്കുകയാണ്.”

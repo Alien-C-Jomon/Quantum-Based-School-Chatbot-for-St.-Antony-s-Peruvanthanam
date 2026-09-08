@@ -1,0 +1,25 @@
+{
+  "college_name": "St Antony's College Peruvanthanam",
+  "location": "Peruvanthanam, Idukki, Kerala, India",
+  "established": 2013,
+  "affiliated_to": "Mahatma Gandhi University, Kerala",
+  "recognitions": [
+    "NAAC accredited",
+    "AICTE approved",
+    "Recognized under Section 2(f) of the UGC Act"
+  ],
+  "official_website": "https://stantonyscollegepeerumade.ac.in/",
+  "official_instagram": "https://www.instagram.com/stantonysofficial/",
+  "contact": {
+    "phone": "+91 9562581191",
+    "landline": "04869 281191"
+  },
+  "identity": {
+    "description": "St Antony's College Peruvanthanam is an affiliated higher-education institution in Idukki, Kerala.",
+    "specialization": [
+      "Cyber Forensics",
+      "Robotics",
+      "Artificial Intelligence"
+    ]
+  }
+}

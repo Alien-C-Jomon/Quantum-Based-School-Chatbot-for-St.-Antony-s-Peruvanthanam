@@ -1,0 +1,65 @@
+{
+  "college_name": "St Antony's College Peruvanthanam",
+  "courses": [
+    {
+      "level": "UG",
+      "name": "B.A. English Language & Literature",
+      "department": "English"
+    },
+    {
+      "level": "UG",
+      "name": "B.Com. (Commerce with Computer Applications)",
+      "department": "Commerce"
+    },
+    {
+      "level": "UG",
+      "name": "B.Sc. Mathematics",
+      "department": "Mathematics"
+    },
+    {
+      "level": "UG",
+      "name": "B.Sc. Physics",
+      "department": "Physics"
+    },
+    {
+      "level": "UG",
+      "name": "B.Sc. Chemistry",
+      "department": "Chemistry"
+    },
+    {
+      "level": "UG",
+      "name": "B.Sc. Computer Science",
+      "department": "Computer Science"
+    },
+    {
+      "level": "PG",
+      "name": "M.A. English Language & Literature",
+      "department": "English"
+    },
+    {
+      "level": "PG",
+      "name": "M.Com. (Finance & Taxation)",
+      "department": "Commerce"
+    },
+    {
+      "level": "PG",
+      "name": "M.Sc. Mathematics",
+      "department": "Mathematics"
+    },
+    {
+      "level": "PG",
+      "name": "M.Sc. Physics",
+      "department": "Physics"
+    },
+    {
+      "level": "PG",
+      "name": "M.Sc. Chemistry",
+      "department": "Chemistry"
+    },
+    {
+      "level": "PG",
+      "name": "M.Sc. Computer Science",
+      "department": "Computer Science"
+    }
+  ]
+}

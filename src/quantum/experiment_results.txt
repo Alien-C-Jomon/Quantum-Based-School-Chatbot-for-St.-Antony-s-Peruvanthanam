@@ -1,0 +1,37 @@
+Q-AI Quantum Experiment Log
+===========================
+
+Experiment 1: Single-qubit quantum scoring
+
+Question:
+Who is the HOD of Computer Science?
+
+Dataset:
+43 faculty records
+
+Classical execution time:
+0.000507 seconds
+
+Quantum simulation execution time:
+0.428603 seconds
+
+Classical winner:
+Mrs. Jintumol John
+
+Quantum winner:
+Mrs. Jintumol John
+
+Observation:
+Both methods identified the same top candidate.
+The local quantum simulation was substantially slower than the
+classical method.
+
+Reason:
+The experiment used Qiskit Aer to simulate quantum measurements
+on a classical CPU. The circuit was not designed as a quantum
+speedup algorithm.
+
+Conclusion:
+No quantum speedup was demonstrated in this experiment.
+Further experiments are required using a quantum search algorithm
+and larger problem sizes.
