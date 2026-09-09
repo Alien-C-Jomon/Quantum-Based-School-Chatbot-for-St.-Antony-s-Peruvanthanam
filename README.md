@@ -689,38 +689,6 @@ Instead, I want to understand:
 
 ---
 
-# 🎤 Presentation / Demonstration
-
-Q-AI is being developed with the intention of presenting and demonstrating the system in the **St Antony's College, Peruvanthanam context**.
-
-The presentation/demo is intended to show:
-
-### 1. The problem
-
-How students and users can retrieve institutional information through a conversational interface.
-
-### 2. The classical system
-
-How structured knowledge retrieval works.
-
-### 3. The quantum component
-
-How Grover's algorithm can theoretically reduce the query complexity of unstructured search.
-
-### 4. The actual implementation
-
-A live Q-AI demonstration using the college knowledge base.
-
-### 5. The scientific limitations
-
-Why a quantum simulator does not automatically mean faster execution.
-
-### 6. The research direction
-
-How this foundation could eventually lead toward more advanced quantum-assisted AI systems.
-
----
-
 # 🧭 Future Roadmap
 
 Q-AI is still an evolving project.
